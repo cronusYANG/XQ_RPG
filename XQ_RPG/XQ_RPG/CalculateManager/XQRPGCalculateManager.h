@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface XQRPGCalculateManager : NSObject
-
++ (instancetype)sharedManager;
+- (NSString *)generateRandomNumberWithPlace:(NSInteger)place;
+- (NSString *)generateRandomLowercaseWithPlace:(NSInteger)place;
 @end

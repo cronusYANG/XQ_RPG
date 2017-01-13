@@ -8,6 +8,8 @@
 
 #import "XQRPGPasswordGeneratedViewController.h"
 
+#import "XQRPGCalculateManager.h"
+
 @interface XQRPGPasswordGeneratedViewController ()
 
 @end
@@ -16,6 +18,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+//    NSMutableArray *array = [NSMutableArray array];
+//    for (int i = 0; i<10; i++) {
+//        NSString *str = [[XQRPGCalculateManager sharedManager]generateRandomNumberWithPlace:6];
+//        [array addObject:str];
+//    }
+//   
+//    NSLog(@"%@",array);
+    
+    NSString *str = [[XQRPGCalculateManager sharedManager]generateRandomLowercaseWithPlace:8];
+    NSLog(@"%@",str);
     
 }
 
