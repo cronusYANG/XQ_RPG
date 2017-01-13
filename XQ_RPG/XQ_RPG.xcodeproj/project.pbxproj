@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55E6EF581E287B1F00513029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF571E287B1F00513029 /* main.m */; };
+		55E6EF5B1E287B1F00513029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF5A1E287B1F00513029 /* AppDelegate.m */; };
+		55E6EF631E287B1F00513029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E6EF621E287B1F00513029 /* Assets.xcassets */; };
+		55E6EF661E287B1F00513029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E6EF641E287B1F00513029 /* LaunchScreen.storyboard */; };
+		55E6EF711E287B1F00513029 /* XQ_RPGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF701E287B1F00513029 /* XQ_RPGTests.m */; };
+		55E6EF7C1E287B1F00513029 /* XQ_RPGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF7B1E287B1F00513029 /* XQ_RPGUITests.m */; };
+		55E6EF8F1E28A62200513029 /* XQRPGTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF8E1E28A62200513029 /* XQRPGTabBarViewController.m */; };
+		55E6EF921E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF911E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.m */; };
+		55E6EF971E28A73500513029 /* XQRPGMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF961E28A73500513029 /* XQRPGMineViewController.m */; };
+		55E6EF9A1E28A74F00513029 /* XQRPGSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF991E28A74F00513029 /* XQRPGSettingViewController.m */; };
+		55E6EFA11E28AB2C00513029 /* XQRPGCalculateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EFA01E28AB2C00513029 /* XQRPGCalculateManager.m */; };
+		EBC2CA4E4B45FDF66B07E5EC /* libPods-XQ_RPG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B1E533586CBAA280B697C3 /* libPods-XQ_RPG.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E6EF6D1E287B1F00513029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E6EF4B1E287B1F00513029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E6EF521E287B1F00513029;
+			remoteInfo = XQ_RPG;
+		};
+		55E6EF781E287B1F00513029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E6EF4B1E287B1F00513029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E6EF521E287B1F00513029;
+			remoteInfo = XQ_RPG;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1345A683CA3D13036D4CE17E /* Pods-XQ_RPG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQ_RPG.release.xcconfig"; path = "Pods/Target Support Files/Pods-XQ_RPG/Pods-XQ_RPG.release.xcconfig"; sourceTree = "<group>"; };
+		55E6EF531E287B1F00513029 /* XQ_RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQ_RPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E6EF571E287B1F00513029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55E6EF591E287B1F00513029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55E6EF5A1E287B1F00513029 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55E6EF621E287B1F00513029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55E6EF651E287B1F00513029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55E6EF671E287B1F00513029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E6EF6C1E287B1F00513029 /* XQ_RPGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQ_RPGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E6EF701E287B1F00513029 /* XQ_RPGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQ_RPGTests.m; sourceTree = "<group>"; };
+		55E6EF721E287B1F00513029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E6EF771E287B1F00513029 /* XQ_RPGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQ_RPGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E6EF7B1E287B1F00513029 /* XQ_RPGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQ_RPGUITests.m; sourceTree = "<group>"; };
+		55E6EF7D1E287B1F00513029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E6EF8D1E28A62200513029 /* XQRPGTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGTabBarViewController.h; sourceTree = "<group>"; };
+		55E6EF8E1E28A62200513029 /* XQRPGTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGTabBarViewController.m; sourceTree = "<group>"; };
+		55E6EF901E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGPasswordGeneratedViewController.h; sourceTree = "<group>"; };
+		55E6EF911E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGPasswordGeneratedViewController.m; sourceTree = "<group>"; };
+		55E6EF951E28A73500513029 /* XQRPGMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGMineViewController.h; sourceTree = "<group>"; };
+		55E6EF961E28A73500513029 /* XQRPGMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGMineViewController.m; sourceTree = "<group>"; };
+		55E6EF981E28A74F00513029 /* XQRPGSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGSettingViewController.h; sourceTree = "<group>"; };
+		55E6EF991E28A74F00513029 /* XQRPGSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGSettingViewController.m; sourceTree = "<group>"; };
+		55E6EF9F1E28AB2C00513029 /* XQRPGCalculateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGCalculateManager.h; sourceTree = "<group>"; };
+		55E6EFA01E28AB2C00513029 /* XQRPGCalculateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGCalculateManager.m; sourceTree = "<group>"; };
+		86B1E533586CBAA280B697C3 /* libPods-XQ_RPG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XQ_RPG.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C4ECEBB484C1BEBE52A925 /* Pods-XQ_RPG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQ_RPG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XQ_RPG/Pods-XQ_RPG.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E6EF501E287B1F00513029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC2CA4E4B45FDF66B07E5EC /* libPods-XQ_RPG.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E6EF691E287B1F00513029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E6EF741E287B1F00513029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E6EF4A1E287B1F00513029 = {
+			isa = PBXGroup;
+			children = (
+				55E6EF551E287B1F00513029 /* XQ_RPG */,
+				55E6EF6F1E287B1F00513029 /* XQ_RPGTests */,
+				55E6EF7A1E287B1F00513029 /* XQ_RPGUITests */,
+				55E6EF541E287B1F00513029 /* Products */,
+				B5B358AD83CA09AA71E4C307 /* Pods */,
+				FCD513EDBE6824E2B586E16C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55E6EF541E287B1F00513029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E6EF531E287B1F00513029 /* XQ_RPG.app */,
+				55E6EF6C1E287B1F00513029 /* XQ_RPGTests.xctest */,
+				55E6EF771E287B1F00513029 /* XQ_RPGUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E6EF551E287B1F00513029 /* XQ_RPG */ = {
+			isa = PBXGroup;
+			children = (
+				55E6EF8A1E28A5B600513029 /* Classes */,
+				55E6EF891E28A5B600513029 /* CalculateManager */,
+				55E6EF591E287B1F00513029 /* AppDelegate.h */,
+				55E6EF5A1E287B1F00513029 /* AppDelegate.m */,
+				55E6EF621E287B1F00513029 /* Assets.xcassets */,
+				55E6EF641E287B1F00513029 /* LaunchScreen.storyboard */,
+				55E6EF671E287B1F00513029 /* Info.plist */,
+				55E6EF561E287B1F00513029 /* Supporting Files */,
+			);
+			path = XQ_RPG;
+			sourceTree = "<group>";
+		};
+		55E6EF561E287B1F00513029 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55E6EF571E287B1F00513029 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55E6EF6F1E287B1F00513029 /* XQ_RPGTests */ = {
+			isa = PBXGroup;
+			children = (
+				55E6EF701E287B1F00513029 /* XQ_RPGTests.m */,
+				55E6EF721E287B1F00513029 /* Info.plist */,
+			);
+			path = XQ_RPGTests;
+			sourceTree = "<group>";
+		};
+		55E6EF7A1E287B1F00513029 /* XQ_RPGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55E6EF7B1E287B1F00513029 /* XQ_RPGUITests.m */,
+				55E6EF7D1E287B1F00513029 /* Info.plist */,
+			);
+			path = XQ_RPGUITests;
+			sourceTree = "<group>";
+		};
+		55E6EF891E28A5B600513029 /* CalculateManager */ = {
+			isa = PBXGroup;
+			children = (
+				55E6EF9F1E28AB2C00513029 /* XQRPGCalculateManager.h */,
+				55E6EFA01E28AB2C00513029 /* XQRPGCalculateManager.m */,
+			);
+			path = CalculateManager;
+			sourceTree = "<group>";
+		};
+		55E6EF8A1E28A5B600513029 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				55E6EF931E28A72300513029 /* Setting */,
+				55E6EF941E28A72300513029 /* Mine */,
+				55E6EF8B1E28A5B600513029 /* Main */,
+				55E6EF8C1E28A5B600513029 /* PasswordGenerated */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		55E6EF8B1E28A5B600513029 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				55E6EF9C1E28A80800513029 /* View */,
+				55E6EF8D1E28A62200513029 /* XQRPGTabBarViewController.h */,
+				55E6EF8E1E28A62200513029 /* XQRPGTabBarViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		55E6EF8C1E28A5B600513029 /* PasswordGenerated */ = {
+			isa = PBXGroup;
+			children = (
+				55E6EF9B1E28A7FF00513029 /* View */,
+				55E6EF901E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.h */,
+				55E6EF911E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.m */,
+			);
+			path = PasswordGenerated;
+			sourceTree = "<group>";
+		};
+		55E6EF931E28A72300513029 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				55E6EF9E1E28A81C00513029 /* View */,
+				55E6EF981E28A74F00513029 /* XQRPGSettingViewController.h */,
+				55E6EF991E28A74F00513029 /* XQRPGSettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		55E6EF941E28A72300513029 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				55E6EF9D1E28A80E00513029 /* View */,
+				55E6EF951E28A73500513029 /* XQRPGMineViewController.h */,
+				55E6EF961E28A73500513029 /* XQRPGMineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		55E6EF9B1E28A7FF00513029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55E6EF9C1E28A80800513029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55E6EF9D1E28A80E00513029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55E6EF9E1E28A81C00513029 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5B358AD83CA09AA71E4C307 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2C4ECEBB484C1BEBE52A925 /* Pods-XQ_RPG.debug.xcconfig */,
+				1345A683CA3D13036D4CE17E /* Pods-XQ_RPG.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCD513EDBE6824E2B586E16C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86B1E533586CBAA280B697C3 /* libPods-XQ_RPG.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E6EF521E287B1F00513029 /* XQ_RPG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E6EF801E287B1F00513029 /* Build configuration list for PBXNativeTarget "XQ_RPG" */;
+			buildPhases = (
+				D8680A2685FEEDA96871F80D /* [CP] Check Pods Manifest.lock */,
+				55E6EF4F1E287B1F00513029 /* Sources */,
+				55E6EF501E287B1F00513029 /* Frameworks */,
+				55E6EF511E287B1F00513029 /* Resources */,
+				5D033497B7B417A089B0F114 /* [CP] Embed Pods Frameworks */,
+				7741A69E02B6142C7CC2F58D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XQ_RPG;
+			productName = XQ_RPG;
+			productReference = 55E6EF531E287B1F00513029 /* XQ_RPG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55E6EF6B1E287B1F00513029 /* XQ_RPGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E6EF831E287B1F00513029 /* Build configuration list for PBXNativeTarget "XQ_RPGTests" */;
+			buildPhases = (
+				55E6EF681E287B1F00513029 /* Sources */,
+				55E6EF691E287B1F00513029 /* Frameworks */,
+				55E6EF6A1E287B1F00513029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E6EF6E1E287B1F00513029 /* PBXTargetDependency */,
+			);
+			name = XQ_RPGTests;
+			productName = XQ_RPGTests;
+			productReference = 55E6EF6C1E287B1F00513029 /* XQ_RPGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55E6EF761E287B1F00513029 /* XQ_RPGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E6EF861E287B1F00513029 /* Build configuration list for PBXNativeTarget "XQ_RPGUITests" */;
+			buildPhases = (
+				55E6EF731E287B1F00513029 /* Sources */,
+				55E6EF741E287B1F00513029 /* Frameworks */,
+				55E6EF751E287B1F00513029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E6EF791E287B1F00513029 /* PBXTargetDependency */,
+			);
+			name = XQ_RPGUITests;
+			productName = XQ_RPGUITests;
+			productReference = 55E6EF771E287B1F00513029 /* XQ_RPGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E6EF4B1E287B1F00513029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XQRPG;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					55E6EF521E287B1F00513029 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XBD2EDB9AY;
+						ProvisioningStyle = Automatic;
+					};
+					55E6EF6B1E287B1F00513029 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55E6EF521E287B1F00513029;
+					};
+					55E6EF761E287B1F00513029 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55E6EF521E287B1F00513029;
+					};
+				};
+			};
+			buildConfigurationList = 55E6EF4E1E287B1F00513029 /* Build configuration list for PBXProject "XQ_RPG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E6EF4A1E287B1F00513029;
+			productRefGroup = 55E6EF541E287B1F00513029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E6EF521E287B1F00513029 /* XQ_RPG */,
+				55E6EF6B1E287B1F00513029 /* XQ_RPGTests */,
+				55E6EF761E287B1F00513029 /* XQ_RPGUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E6EF511E287B1F00513029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E6EF661E287B1F00513029 /* LaunchScreen.storyboard in Resources */,
+				55E6EF631E287B1F00513029 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E6EF6A1E287B1F00513029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E6EF751E287B1F00513029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D033497B7B417A089B0F114 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XQ_RPG/Pods-XQ_RPG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7741A69E02B6142C7CC2F58D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XQ_RPG/Pods-XQ_RPG-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8680A2685FEEDA96871F80D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E6EF4F1E287B1F00513029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E6EFA11E28AB2C00513029 /* XQRPGCalculateManager.m in Sources */,
+				55E6EF9A1E28A74F00513029 /* XQRPGSettingViewController.m in Sources */,
+				55E6EF921E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.m in Sources */,
+				55E6EF8F1E28A62200513029 /* XQRPGTabBarViewController.m in Sources */,
+				55E6EF5B1E287B1F00513029 /* AppDelegate.m in Sources */,
+				55E6EF581E287B1F00513029 /* main.m in Sources */,
+				55E6EF971E28A73500513029 /* XQRPGMineViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E6EF681E287B1F00513029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E6EF711E287B1F00513029 /* XQ_RPGTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E6EF731E287B1F00513029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E6EF7C1E287B1F00513029 /* XQ_RPGUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E6EF6E1E287B1F00513029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E6EF521E287B1F00513029 /* XQ_RPG */;
+			targetProxy = 55E6EF6D1E287B1F00513029 /* PBXContainerItemProxy */;
+		};
+		55E6EF791E287B1F00513029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E6EF521E287B1F00513029 /* XQ_RPG */;
+			targetProxy = 55E6EF781E287B1F00513029 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55E6EF641E287B1F00513029 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E6EF651E287B1F00513029 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E6EF7E1E287B1F00513029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55E6EF7F1E287B1F00513029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E6EF811E287B1F00513029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C4ECEBB484C1BEBE52A925 /* Pods-XQ_RPG.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XBD2EDB9AY;
+				INFOPLIST_FILE = XQ_RPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.Yang.XQ-RPG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55E6EF821E287B1F00513029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1345A683CA3D13036D4CE17E /* Pods-XQ_RPG.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XBD2EDB9AY;
+				INFOPLIST_FILE = XQ_RPG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.Yang.XQ-RPG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		55E6EF841E287B1F00513029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XQ_RPGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.Yang.XQ-RPGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XQ_RPG.app/XQ_RPG";
+			};
+			name = Debug;
+		};
+		55E6EF851E287B1F00513029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XQ_RPGTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.Yang.XQ-RPGTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XQ_RPG.app/XQ_RPG";
+			};
+			name = Release;
+		};
+		55E6EF871E287B1F00513029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XQ_RPGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.Yang.XQ-RPGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XQ_RPG;
+			};
+			name = Debug;
+		};
+		55E6EF881E287B1F00513029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XQ_RPGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.Yang.XQ-RPGUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XQ_RPG;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E6EF4E1E287B1F00513029 /* Build configuration list for PBXProject "XQ_RPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E6EF7E1E287B1F00513029 /* Debug */,
+				55E6EF7F1E287B1F00513029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E6EF801E287B1F00513029 /* Build configuration list for PBXNativeTarget "XQ_RPG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E6EF811E287B1F00513029 /* Debug */,
+				55E6EF821E287B1F00513029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E6EF831E287B1F00513029 /* Build configuration list for PBXNativeTarget "XQ_RPGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E6EF841E287B1F00513029 /* Debug */,
+				55E6EF851E287B1F00513029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E6EF861E287B1F00513029 /* Build configuration list for PBXNativeTarget "XQ_RPGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E6EF871E287B1F00513029 /* Debug */,
+				55E6EF881E287B1F00513029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E6EF4B1E287B1F00513029 /* Project object */;
+}
