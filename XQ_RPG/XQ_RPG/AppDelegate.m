@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "XQRPGTabBarViewController.h"
+#import "XQRPGPasswordGeneratedViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,9 +21,11 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    XQRPGTabBarViewController *tabbarController = [[XQRPGTabBarViewController alloc] init];
+    XQRPGPasswordGeneratedViewController *vc = [[XQRPGPasswordGeneratedViewController alloc] init];
     
-    self.window.rootViewController = tabbarController;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
 

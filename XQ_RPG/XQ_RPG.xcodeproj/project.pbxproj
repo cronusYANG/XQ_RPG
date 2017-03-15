@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		556464581E35E971009D6939 /* XQRPGOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556464571E35E971009D6939 /* XQRPGOptionsViewController.m */; };
+		5564645B1E35E9D2009D6939 /* XQRPGOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5564645A1E35E9D2009D6939 /* XQRPGOptionsView.m */; };
 		55E6EF581E287B1F00513029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF571E287B1F00513029 /* main.m */; };
 		55E6EF5B1E287B1F00513029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF5A1E287B1F00513029 /* AppDelegate.m */; };
 		55E6EF631E287B1F00513029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E6EF621E287B1F00513029 /* Assets.xcassets */; };
 		55E6EF661E287B1F00513029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E6EF641E287B1F00513029 /* LaunchScreen.storyboard */; };
 		55E6EF711E287B1F00513029 /* XQ_RPGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF701E287B1F00513029 /* XQ_RPGTests.m */; };
 		55E6EF7C1E287B1F00513029 /* XQ_RPGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF7B1E287B1F00513029 /* XQ_RPGUITests.m */; };
-		55E6EF8F1E28A62200513029 /* XQRPGTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF8E1E28A62200513029 /* XQRPGTabBarViewController.m */; };
 		55E6EF921E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF911E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.m */; };
-		55E6EF971E28A73500513029 /* XQRPGMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF961E28A73500513029 /* XQRPGMineViewController.m */; };
-		55E6EF9A1E28A74F00513029 /* XQRPGSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF991E28A74F00513029 /* XQRPGSettingViewController.m */; };
 		55E6EFA11E28AB2C00513029 /* XQRPGCalculateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EFA01E28AB2C00513029 /* XQRPGCalculateManager.m */; };
+		55E6EFA41E29BAD900513029 /* XQRPGHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EFA31E29BAD900513029 /* XQRPGHomeView.m */; };
 		EBC2CA4E4B45FDF66B07E5EC /* libPods-XQ_RPG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B1E533586CBAA280B697C3 /* libPods-XQ_RPG.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		1345A683CA3D13036D4CE17E /* Pods-XQ_RPG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQ_RPG.release.xcconfig"; path = "Pods/Target Support Files/Pods-XQ_RPG/Pods-XQ_RPG.release.xcconfig"; sourceTree = "<group>"; };
+		556464561E35E971009D6939 /* XQRPGOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGOptionsViewController.h; sourceTree = "<group>"; };
+		556464571E35E971009D6939 /* XQRPGOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGOptionsViewController.m; sourceTree = "<group>"; };
+		556464591E35E9D2009D6939 /* XQRPGOptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGOptionsView.h; sourceTree = "<group>"; };
+		5564645A1E35E9D2009D6939 /* XQRPGOptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGOptionsView.m; sourceTree = "<group>"; };
 		55E6EF531E287B1F00513029 /* XQ_RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQ_RPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E6EF571E287B1F00513029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55E6EF591E287B1F00513029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,16 +57,12 @@
 		55E6EF771E287B1F00513029 /* XQ_RPGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQ_RPGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E6EF7B1E287B1F00513029 /* XQ_RPGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQ_RPGUITests.m; sourceTree = "<group>"; };
 		55E6EF7D1E287B1F00513029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55E6EF8D1E28A62200513029 /* XQRPGTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGTabBarViewController.h; sourceTree = "<group>"; };
-		55E6EF8E1E28A62200513029 /* XQRPGTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGTabBarViewController.m; sourceTree = "<group>"; };
 		55E6EF901E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGPasswordGeneratedViewController.h; sourceTree = "<group>"; };
 		55E6EF911E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGPasswordGeneratedViewController.m; sourceTree = "<group>"; };
-		55E6EF951E28A73500513029 /* XQRPGMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGMineViewController.h; sourceTree = "<group>"; };
-		55E6EF961E28A73500513029 /* XQRPGMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGMineViewController.m; sourceTree = "<group>"; };
-		55E6EF981E28A74F00513029 /* XQRPGSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGSettingViewController.h; sourceTree = "<group>"; };
-		55E6EF991E28A74F00513029 /* XQRPGSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGSettingViewController.m; sourceTree = "<group>"; };
 		55E6EF9F1E28AB2C00513029 /* XQRPGCalculateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGCalculateManager.h; sourceTree = "<group>"; };
 		55E6EFA01E28AB2C00513029 /* XQRPGCalculateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGCalculateManager.m; sourceTree = "<group>"; };
+		55E6EFA21E29BAD900513029 /* XQRPGHomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGHomeView.h; sourceTree = "<group>"; };
+		55E6EFA31E29BAD900513029 /* XQRPGHomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGHomeView.m; sourceTree = "<group>"; };
 		86B1E533586CBAA280B697C3 /* libPods-XQ_RPG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XQ_RPG.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C4ECEBB484C1BEBE52A925 /* Pods-XQ_RPG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQ_RPG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XQ_RPG/Pods-XQ_RPG.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,22 +168,9 @@
 		55E6EF8A1E28A5B600513029 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				55E6EF931E28A72300513029 /* Setting */,
-				55E6EF941E28A72300513029 /* Mine */,
-				55E6EF8B1E28A5B600513029 /* Main */,
 				55E6EF8C1E28A5B600513029 /* PasswordGenerated */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		55E6EF8B1E28A5B600513029 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				55E6EF9C1E28A80800513029 /* View */,
-				55E6EF8D1E28A62200513029 /* XQRPGTabBarViewController.h */,
-				55E6EF8E1E28A62200513029 /* XQRPGTabBarViewController.m */,
-			);
-			path = Main;
 			sourceTree = "<group>";
 		};
 		55E6EF8C1E28A5B600513029 /* PasswordGenerated */ = {
@@ -192,54 +179,19 @@
 				55E6EF9B1E28A7FF00513029 /* View */,
 				55E6EF901E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.h */,
 				55E6EF911E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.m */,
+				556464561E35E971009D6939 /* XQRPGOptionsViewController.h */,
+				556464571E35E971009D6939 /* XQRPGOptionsViewController.m */,
 			);
 			path = PasswordGenerated;
-			sourceTree = "<group>";
-		};
-		55E6EF931E28A72300513029 /* Setting */ = {
-			isa = PBXGroup;
-			children = (
-				55E6EF9E1E28A81C00513029 /* View */,
-				55E6EF981E28A74F00513029 /* XQRPGSettingViewController.h */,
-				55E6EF991E28A74F00513029 /* XQRPGSettingViewController.m */,
-			);
-			path = Setting;
-			sourceTree = "<group>";
-		};
-		55E6EF941E28A72300513029 /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				55E6EF9D1E28A80E00513029 /* View */,
-				55E6EF951E28A73500513029 /* XQRPGMineViewController.h */,
-				55E6EF961E28A73500513029 /* XQRPGMineViewController.m */,
-			);
-			path = Mine;
 			sourceTree = "<group>";
 		};
 		55E6EF9B1E28A7FF00513029 /* View */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		55E6EF9C1E28A80800513029 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		55E6EF9D1E28A80E00513029 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		55E6EF9E1E28A81C00513029 /* View */ = {
-			isa = PBXGroup;
-			children = (
+				55E6EFA21E29BAD900513029 /* XQRPGHomeView.h */,
+				55E6EFA31E29BAD900513029 /* XQRPGHomeView.m */,
+				556464591E35E9D2009D6939 /* XQRPGOptionsView.h */,
+				5564645A1E35E9D2009D6939 /* XQRPGOptionsView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -446,13 +398,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556464581E35E971009D6939 /* XQRPGOptionsViewController.m in Sources */,
+				55E6EFA41E29BAD900513029 /* XQRPGHomeView.m in Sources */,
 				55E6EFA11E28AB2C00513029 /* XQRPGCalculateManager.m in Sources */,
-				55E6EF9A1E28A74F00513029 /* XQRPGSettingViewController.m in Sources */,
 				55E6EF921E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.m in Sources */,
-				55E6EF8F1E28A62200513029 /* XQRPGTabBarViewController.m in Sources */,
 				55E6EF5B1E287B1F00513029 /* AppDelegate.m in Sources */,
 				55E6EF581E287B1F00513029 /* main.m in Sources */,
-				55E6EF971E28A73500513029 /* XQRPGMineViewController.m in Sources */,
+				5564645B1E35E9D2009D6939 /* XQRPGOptionsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
