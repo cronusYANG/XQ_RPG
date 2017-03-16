@@ -10,7 +10,7 @@
 
 @interface XQRPGCalculateManager ()
 @property (assign,nonatomic) long rNumber;
-@property (strong,nonatomic) NSString *rLetter;
+//@property (strong,nonatomic) NSString *rLetter;
 @end
 
 @implementation XQRPGCalculateManager
@@ -26,11 +26,12 @@
 //随机生成数字字符串
 - (NSString *)generateRandomNumberWithPlace:(NSInteger)place {
     
+    long rNumber;
     NSString *str;
     NSMutableArray *mArray = [NSMutableArray array];
     for (int i = 0; i < place; i++) {
-        _rNumber = (arc4random() % 10);
-        str = [NSString stringWithFormat:@"%ld",_rNumber];
+        rNumber = (arc4random() % 10);
+        str = [NSString stringWithFormat:@"%ld",rNumber];
         [mArray addObject:str];
     }
     
@@ -54,6 +55,14 @@
     char data[place];
     for (int x = 0; x < place; data[x++] = (char)('A' + (arc4random_uniform(26))));
     return [[NSString alloc] initWithBytes:data length:place encoding:NSUTF8StringEncoding];
+}
+
+//首字母大写
+- (NSString *)generateRandomFirstUppercaseWithPlace:(NSInteger)place{
+    NSString *strOne = [self generateRandomUppercaseWithPlace:1];
+    NSString *strTwo = [self generateRandomLowercaseWithPlace:place-1];
+    NSString *str = [NSString stringWithFormat:@"%@%@",strOne,strTwo];
+    return str;
 }
 
 @end

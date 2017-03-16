@@ -12,4 +12,6 @@
 + (instancetype)sharedManager;
 - (NSString *)generateRandomNumberWithPlace:(NSInteger)place;
 - (NSString *)generateRandomLowercaseWithPlace:(NSInteger)place;
+- (NSString *)generateRandomUppercaseWithPlace:(NSInteger)place;
+- (NSString *)generateRandomFirstUppercaseWithPlace:(NSInteger)place;
 @end

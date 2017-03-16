@@ -20,6 +20,7 @@
 @property (strong,nonatomic) UIButton *numBtn;
 @property (strong,nonatomic) UIButton *englishBtn;
 @property (strong,nonatomic) UILabel *label;
+@property (strong,nonatomic) UISwitch *firstLetter;
 @end
 
 @implementation XQRPGPasswordGeneratedViewController
@@ -31,8 +32,6 @@
     
     [self setupUI];
     
-//    NSString *str = [[XQRPGCalculateManager sharedManager]generateRandomLowercaseWithPlace:8];
-//    NSLog(@"%@",str);
     
 }
 
@@ -102,6 +101,21 @@
     numBtn.alpha = 0.7;
     [self.view addSubview:numBtn];
     
+    UIView *firstLetterView = [[UIView alloc] init];
+    firstLetterView.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:firstLetterView];
+    
+    UILabel *label2 = [[UILabel alloc]init];
+    label2.text = @"首字母大写";
+    label2.font = [UIFont systemFontOfSize:15];
+    [label2 sizeToFit];
+    [firstLetterView addSubview:label2];
+    
+    UISwitch *firstLetter = [[UISwitch alloc] init];
+    firstLetter.on = NO;
+    [firstLetter sizeToFit];
+    [firstLetterView addSubview:firstLetter];
+    
     UIButton *englishBtn = [[UIButton alloc] init];
     [englishBtn setTitle:@"生成英文" forState:UIControlStateNormal];
     englishBtn.backgroundColor = [UIColor greenColor];
@@ -139,14 +153,31 @@
         make.centerX.offset(0);
         make.top.equalTo(digits.mas_bottom).offset(40);
         make.width.offset(150);
-        make.height.offset(50);
+        make.height.offset(44);
+    }];
+    
+    [firstLetterView mas_makeConstraints:^(MASConstraintMaker *make){
+        make.centerX.offset(0);
+        make.top.equalTo(numBtn.mas_bottom).offset(10);
+        make.width.offset(150);
+        make.height.offset(44);
+    }];
+    
+    [label2 mas_makeConstraints:^(MASConstraintMaker *make){
+        make.centerY.offset(0);
+        make.left.offset(3);
+    }];
+    
+    [firstLetter mas_makeConstraints:^(MASConstraintMaker *make){
+        make.centerY.offset(0);
+        make.left.equalTo(label2.mas_right).offset(2);
     }];
     
     [englishBtn mas_makeConstraints:^(MASConstraintMaker *make){
         make.centerX.offset(0);
-        make.top.equalTo(numBtn.mas_bottom).offset(40);
+        make.top.equalTo(firstLetterView.mas_bottom).offset(10);
         make.width.offset(150);
-        make.height.offset(50);
+        make.height.offset(44);
     }];
     
     self.digits = digits;
@@ -154,6 +185,7 @@
     self.numBtn = numBtn;
     self.englishBtn = englishBtn;
     self.label = label;
+    self.firstLetter = firstLetter;
     
     [numBtn addTarget:self action:@selector(generateNumber) forControlEvents:UIControlEventTouchUpInside];
     [englishBtn addTarget:self action:@selector(generateEnglish) forControlEvents:UIControlEventTouchUpInside];
@@ -179,22 +211,61 @@
 
 -(void)generateNumber{
     CGFloat x = self.digits.text.integerValue;
-    if (x > 21) {
-        
-    }else{
-        self.passWord.text = [[XQRPGCalculateManager sharedManager]generateRandomNumberWithPlace:x];
-        self.label.hidden = NO;
+    if (x ==0 || !x)
+    {
+        self.passWord.text = @"NULL";
+        self.label.hidden = YES;
+        self.passWord.isCopyable = NO;
     }
+    else
+    {
+        if (x > 21) {
+            [self tishi];
+        }else{
+            self.passWord.text = [[XQRPGCalculateManager sharedManager]generateRandomNumberWithPlace:x];
+            self.label.hidden = NO;
+        }
+    }
+    
    
 }
 -(void)generateEnglish{
     CGFloat x = self.digits.text.integerValue;
-    if (x > 21) {
-        
-    }else{
-    self.passWord.text = [[XQRPGCalculateManager sharedManager]generateRandomLowercaseWithPlace:x];
-        self.label.hidden = NO;
+    if (x ==0 || !x)
+    {
+        self.passWord.text = @"NULL";
+        self.label.hidden = YES;
+        self.passWord.isCopyable = NO;
     }
+    else
+    {
+        if (x > 21) {
+            [self tishi];
+        }else{
+            
+            if (!self.firstLetter.on) {
+                self.passWord.text = [[XQRPGCalculateManager sharedManager]generateRandomLowercaseWithPlace:x];
+                
+            }else{
+                self.passWord.text = [[XQRPGCalculateManager sharedManager]generateRandomFirstUppercaseWithPlace:x];
+            }
+            self.label.hidden = NO;
+        }
+    
+    }
+}
+
+-(void)tishi{
+    
+    UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"提示" message:@"不能超过21位" preferredStyle: UIAlertControllerStyleAlert];
+    
+    __weak typeof(self) weakSelf = self;
+    [alert addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        weakSelf.digits.text = @"21";
+    }]];
+    
+    [self presentViewController:alert animated:YES completion:nil];
+    
 }
 
 - (void)didReceiveMemoryWarning {
