@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		556464581E35E971009D6939 /* XQRPGOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556464571E35E971009D6939 /* XQRPGOptionsViewController.m */; };
 		5564645B1E35E9D2009D6939 /* XQRPGOptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5564645A1E35E9D2009D6939 /* XQRPGOptionsView.m */; };
+		559280841E7A3A3D0033D5BF /* UILabel+Copy.m in Sources */ = {isa = PBXBuildFile; fileRef = 559280831E7A3A3D0033D5BF /* UILabel+Copy.m */; };
 		55E6EF581E287B1F00513029 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF571E287B1F00513029 /* main.m */; };
 		55E6EF5B1E287B1F00513029 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E6EF5A1E287B1F00513029 /* AppDelegate.m */; };
 		55E6EF631E287B1F00513029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E6EF621E287B1F00513029 /* Assets.xcassets */; };
@@ -44,6 +45,8 @@
 		556464571E35E971009D6939 /* XQRPGOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGOptionsViewController.m; sourceTree = "<group>"; };
 		556464591E35E9D2009D6939 /* XQRPGOptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQRPGOptionsView.h; sourceTree = "<group>"; };
 		5564645A1E35E9D2009D6939 /* XQRPGOptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQRPGOptionsView.m; sourceTree = "<group>"; };
+		559280821E7A3A3D0033D5BF /* UILabel+Copy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Copy.h"; sourceTree = "<group>"; };
+		559280831E7A3A3D0033D5BF /* UILabel+Copy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Copy.m"; sourceTree = "<group>"; };
 		55E6EF531E287B1F00513029 /* XQ_RPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQ_RPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E6EF571E287B1F00513029 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55E6EF591E287B1F00513029 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -93,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		559280811E7A3A0C0033D5BF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				559280821E7A3A3D0033D5BF /* UILabel+Copy.h */,
+				559280831E7A3A3D0033D5BF /* UILabel+Copy.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		55E6EF4A1E287B1F00513029 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +132,7 @@
 			children = (
 				55E6EF8A1E28A5B600513029 /* Classes */,
 				55E6EF891E28A5B600513029 /* CalculateManager */,
+				559280811E7A3A0C0033D5BF /* Category */,
 				55E6EF591E287B1F00513029 /* AppDelegate.h */,
 				55E6EF5A1E287B1F00513029 /* AppDelegate.m */,
 				55E6EF621E287B1F00513029 /* Assets.xcassets */,
@@ -403,6 +416,7 @@
 				55E6EFA11E28AB2C00513029 /* XQRPGCalculateManager.m in Sources */,
 				55E6EF921E28A6CF00513029 /* XQRPGPasswordGeneratedViewController.m in Sources */,
 				55E6EF5B1E287B1F00513029 /* AppDelegate.m in Sources */,
+				559280841E7A3A3D0033D5BF /* UILabel+Copy.m in Sources */,
 				55E6EF581E287B1F00513029 /* main.m in Sources */,
 				5564645B1E35E9D2009D6939 /* XQRPGOptionsView.m in Sources */,
 			);
