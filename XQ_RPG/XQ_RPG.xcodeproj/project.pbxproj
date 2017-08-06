@@ -297,7 +297,7 @@
 				TargetAttributes = {
 					55E6EF521E287B1F00513029 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = XBD2EDB9AY;
+						DevelopmentTeam = DR73UB2U9G;
 						ProvisioningStyle = Automatic;
 					};
 					55E6EF6B1E287B1F00513029 = {
@@ -558,7 +558,7 @@
 			baseConfigurationReference = F2C4ECEBB484C1BEBE52A925 /* Pods-XQ_RPG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XBD2EDB9AY;
+				DEVELOPMENT_TEAM = DR73UB2U9G;
 				INFOPLIST_FILE = XQ_RPG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.Yang.XQ-RPG";
@@ -571,7 +571,7 @@
 			baseConfigurationReference = 1345A683CA3D13036D4CE17E /* Pods-XQ_RPG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XBD2EDB9AY;
+				DEVELOPMENT_TEAM = DR73UB2U9G;
 				INFOPLIST_FILE = XQ_RPG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Allen.Yang.XQ-RPG";
